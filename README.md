@@ -26,7 +26,7 @@
 ### Day 24 LRU Cache
 ### Day 25 Jump Game
 ### Day 26 Longest Common Subsequence
-### Day 27
+### Day 27 Maximal Square
 ### Day 28
 ### Day 29
 ### Day 30
