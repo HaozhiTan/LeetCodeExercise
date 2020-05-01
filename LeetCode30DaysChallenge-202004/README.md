@@ -1,5 +1,5 @@
 # LeetCode30DaysChallenge-202004
-## Leet Code 30 days Challenge Repo in Apr 2020
+## LeetCode 30 days Challenge Repo in Apr 2020
 ### Day 1 Single Number
 ### Day 2 Happy Number
 ### Day 3 Maximum Subarray

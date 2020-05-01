@@ -1,1 +1,1 @@
-### LeetCode Exercise Repo
+# LeetCode Exercise Repo
