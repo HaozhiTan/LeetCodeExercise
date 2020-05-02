@@ -1,7 +1,7 @@
 # LeetCode31DaysChallenge-202005
 ## LeetCode 31 days Challenge Repo in May 2020
 ### Day 1 First Bad Version
-### Day 2 
+### Day 2 Jewels and Stones
 ### Day 3
 ### Day 4 
 ### Day 5
