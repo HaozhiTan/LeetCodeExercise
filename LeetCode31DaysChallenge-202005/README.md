@@ -2,7 +2,7 @@
 ## LeetCode 31 days Challenge Repo in May 2020
 ### Day 1 First Bad Version
 ### Day 2 Jewels and Stones
-### Day 3
+### Day 3 Ransom Note
 ### Day 4 
 ### Day 5
 ### Day 6 
