@@ -5,7 +5,7 @@
 ### Day 3 Ransom Note
 ### Day 4 Number Complement
 ### Day 5 First Unique Character in a String
-### Day 6 
+### Day 6 Majority Element
 ### Day 7 
 ### Day 8 
 ### Day 9 
