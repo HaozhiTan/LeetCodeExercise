@@ -8,7 +8,7 @@
 ### Day 6 Majority Element
 ### Day 7 Cousins in Binary Tree
 ### Day 8 Check If It Is a Straight Line
-### Day 9 
+### Day 9 Valid Perfect Square
 ### Day 10 
 ### Day 11 
 ### Day 12 
