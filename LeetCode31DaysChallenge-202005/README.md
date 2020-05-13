@@ -12,7 +12,7 @@
 ### Day 10 Find the Town Judge
 ### Day 11 Flood Fill
 ### Day 12 Single Element in a Sorted Array
-### Day 13 
+### Day 13 Remove K Digits
 ### Day 14 
 ### Day 15 
 ### Day 16 
