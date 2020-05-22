@@ -21,7 +21,7 @@
 ### Day 19 Online Stock Span
 ### Day 20 Kth Smallest Element in a BST
 ### Day 21 Count Square Submatrices with All Ones
-### Day 22 
+### Day 22 Sort Characters By Frequency
 ### Day 23 
 ### Day 24 
 ### Day 25 
