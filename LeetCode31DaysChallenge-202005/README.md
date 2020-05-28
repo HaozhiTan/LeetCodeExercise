@@ -27,7 +27,7 @@
 ### Day 25 Uncrossed Lines
 ### Day 26 Contiguous Array
 ### Day 27 Possible Bipartition
-### Day 28 
+### Day 28 Counting Bits
 ### Day 29 
 ### Day 30 
 ### Day 31
