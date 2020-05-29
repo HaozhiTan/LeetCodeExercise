@@ -28,6 +28,6 @@
 ### Day 26 Contiguous Array
 ### Day 27 Possible Bipartition
 ### Day 28 Counting Bits
-### Day 29 
+### Day 29 Course Schedule
 ### Day 30 
 ### Day 31
