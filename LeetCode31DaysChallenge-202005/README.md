@@ -29,5 +29,5 @@
 ### Day 27 Possible Bipartition
 ### Day 28 Counting Bits
 ### Day 29 Course Schedule
-### Day 30 
+### Day 30 K Closest Points to Origin
 ### Day 31
