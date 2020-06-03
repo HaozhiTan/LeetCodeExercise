@@ -2,7 +2,7 @@
 ## LeetCode 30 days Challenge Repo in June 2020
 ### Day 1 Invert Binary Tree
 ### Day 2 Delete Node in a Linked List
-### Day 3 
+### Day 3 Two City Scheduling
 ### Day 4 
 ### Day 5 
 ### Day 6 
