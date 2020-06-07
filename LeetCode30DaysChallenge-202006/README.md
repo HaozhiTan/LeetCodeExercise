@@ -6,7 +6,7 @@
 ### Day 4 Reverse String
 ### Day 5 Random Pick with Weight
 ### Day 6 Queue Reconstruction by Height
-### Day 7 
+### Day 7 Coin Change 2
 ### Day 8 
 ### Day 9 
 ### Day 10 
