@@ -7,7 +7,7 @@
 ### Day 5 Random Pick with Weight
 ### Day 6 Queue Reconstruction by Height
 ### Day 7 Coin Change 2
-### Day 8 
+### Day 8 Power of Two
 ### Day 9 
 ### Day 10 
 ### Day 11 
