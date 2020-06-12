@@ -11,7 +11,7 @@
 ### Day 9 Is Subsequence
 ### Day 10 Search Insert Position
 ### Day 11 Sort Colors
-### Day 12 
+### Day 12 Insert Delete GetRandom O(1)
 ### Day 13 
 ### Day 14 
 ### Day 15 
