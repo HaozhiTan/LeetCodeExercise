@@ -17,7 +17,7 @@
 ### Day 15 Search in a Binary Search Tree
 ### Day 16 Validate IP Address
 ### Day 17 Surrounded Regions
-### Day 18 
+### Day 18 H-Index II
 ### Day 19 
 ### Day 20 
 ### Day 21 
