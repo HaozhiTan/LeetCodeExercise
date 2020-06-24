@@ -23,7 +23,7 @@
 ### Day 21 Dungeon Game
 ### Day 22 Single Number II
 ### Day 23 Count Complete Tree Nodes
-### Day 24 
+### Day 24 Unique Binary Search Trees
 ### Day 25 
 ### Day 26 
 ### Day 27 
