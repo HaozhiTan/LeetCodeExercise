@@ -24,7 +24,7 @@
 ### Day 22 Single Number II
 ### Day 23 Count Complete Tree Nodes
 ### Day 24 Unique Binary Search Trees
-### Day 25 
+### Day 25 Find the Duplicate Number
 ### Day 26 
 ### Day 27 
 ### Day 28 
