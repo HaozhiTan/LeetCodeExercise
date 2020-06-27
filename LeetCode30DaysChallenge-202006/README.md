@@ -26,7 +26,7 @@
 ### Day 24 Unique Binary Search Trees
 ### Day 25 Find the Duplicate Number
 ### Day 26 Sum Root to Leaf Numbers
-### Day 27 
+### Day 27 Perfect Squares
 ### Day 28 
 ### Day 29 
 ### Day 30 
