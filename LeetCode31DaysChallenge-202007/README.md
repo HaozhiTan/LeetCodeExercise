@@ -3,7 +3,7 @@
 ### Day 1 Arranging Coins
 ### Day 2 Binary Tree Level Order Traversal II
 ### Day 3 Prison Cells After N Days
-### Day 4 
+### Day 4 Ugly Number II
 ### Day 5 
 ### Day 6 
 ### Day 7 
