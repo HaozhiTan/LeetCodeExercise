@@ -6,7 +6,7 @@
 ### Day 4 Ugly Number II
 ### Day 5 Hamming Distance
 ### Day 6 Plus One
-### Day 7 
+### Day 7 Island Perimeter
 ### Day 8 
 ### Day 9 
 ### Day 10
