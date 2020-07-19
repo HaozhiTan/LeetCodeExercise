@@ -18,7 +18,7 @@
 ### Day 16 Pow(x, n)
 ### Day 17 Top K Frequent Elements
 ### Day 18 Course Schedule II
-### Day 19
+### Day 19 Add Binary
 ### Day 20
 ### Day 21
 ### Day 22
