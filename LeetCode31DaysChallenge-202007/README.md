@@ -20,7 +20,7 @@
 ### Day 18 Course Schedule II
 ### Day 19 Add Binary
 ### Day 20 Remove Linked List Elements
-### Day 21
+### Day 21 Word Search
 ### Day 22
 ### Day 23
 ### Day 24
