@@ -1,7 +1,7 @@
 # LeetCodeXXDaysChallenge-202008
 ## LeetCode 31 days Challenge Repo in August 2020
 ### Day 1 Detect Capital
-### Day 2 
+### Day 2 Design HashSet
 ### Day 3 
 ### Day 4 
 ### Day 5 
