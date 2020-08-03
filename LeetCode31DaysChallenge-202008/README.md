@@ -2,7 +2,7 @@
 ## LeetCode 31 days Challenge Repo in August 2020
 ### Day 1 Detect Capital
 ### Day 2 Design HashSet
-### Day 3 
+### Day 3 Valid Palindrome
 ### Day 4 
 ### Day 5 
 ### Day 6 
