@@ -16,7 +16,7 @@
 ### Day 14 Longest Palindrome
 ### Day 15 Non-overlapping Intervals
 ### Day 16 Best Time to Buy and Sell Stock III
-### Day 17
+### Day 17 Distribute Candies to People
 ### Day 18
 ### Day 19
 ### Day 20
