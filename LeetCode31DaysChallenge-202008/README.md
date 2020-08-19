@@ -18,7 +18,7 @@
 ### Day 16 Best Time to Buy and Sell Stock III
 ### Day 17 Distribute Candies to People
 ### Day 18 Numbers With Same Consecutive Differences
-### Day 19
+### Day 19 Goat Latin
 ### Day 20
 ### Day 21
 ### Day 22
