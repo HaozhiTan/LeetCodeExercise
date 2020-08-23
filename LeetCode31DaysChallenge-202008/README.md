@@ -22,7 +22,7 @@
 ### Day 20 Reorder List
 ### Day 21 Sort Array By Parity
 ### Day 22 Random Point in Non-overlapping Rectangles
-### Day 23
+### Day 23 Stream of Characters
 ### Day 24
 ### Day 25
 ### Day 26
