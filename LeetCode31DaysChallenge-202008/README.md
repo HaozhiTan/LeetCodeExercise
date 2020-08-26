@@ -25,7 +25,7 @@
 ### Day 23 Stream of Characters
 ### Day 24 Sum of Left Leaves
 ### Day 25 Minimum Cost For Tickets
-### Day 26
+### Day 26 Fizz Buzz
 ### Day 27
 ### Day 28
 ### Day 29
