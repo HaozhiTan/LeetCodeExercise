@@ -28,6 +28,6 @@
 ### Day 26 Fizz Buzz
 ### Day 27 Find Right Interval
 ### Day 28 Implement Rand10() Using Rand7()
-### Day 29
+### Day 29 Pancake Sorting
 ### Day 30
 ### Day 31
