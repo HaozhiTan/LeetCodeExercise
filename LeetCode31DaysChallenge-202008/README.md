@@ -29,5 +29,5 @@
 ### Day 27 Find Right Interval
 ### Day 28 Implement Rand10() Using Rand7()
 ### Day 29 Pancake Sorting
-### Day 30
+### Day 30 Largest Component Size by Common Factor
 ### Day 31
