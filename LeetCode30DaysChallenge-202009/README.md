@@ -2,7 +2,7 @@
 ## LeetCode 30 days Challenge Repo in Sept 2020
 ### Day 1 Largest Time for Given Digits
 ### Day 2 Contains Duplicate III
-### Day 3 
+### Day 3 Repeated Substring Pattern
 ### Day 4 
 ### Day 5 
 ### Day 6 
