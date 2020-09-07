@@ -6,7 +6,7 @@
 ### Day 4 Partition Labels
 ### Day 5 All Elements in Two Binary Search Trees
 ### Day 6 Image Overlap
-### Day 7 
+### Day 7 Word Pattern
 ### Day 8 
 ### Day 9 
 ### Day 10
