@@ -15,7 +15,7 @@
 ### Day 13 Insert Interval
 ### Day 14 House Robber
 ### Day 15 Length of Last Word
-### Day 16
+### Day 16 Maximum XOR of Two Numbers in an Array
 ### Day 17
 ### Day 18
 ### Day 19
