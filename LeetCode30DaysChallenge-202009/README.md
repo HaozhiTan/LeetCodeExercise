@@ -17,7 +17,7 @@
 ### Day 15 Length of Last Word
 ### Day 16 Maximum XOR of Two Numbers in an Array
 ### Day 17 Robot Bounded In Circle
-### Day 18
+### Day 18 Best Time to Buy and Sell Stock
 ### Day 19
 ### Day 20
 ### Day 21
