@@ -2,6 +2,7 @@
 
 import random
 import time
+from statistics import stdev
 
 SEED = 1
 random.seed(SEED)
@@ -172,7 +173,7 @@ def hill_climbing(problem):
     return current.state
 
 
-def hill_climbing_instrumented(problem):
+def hill_climbing_instrumented(problem, **kwargs):
     """
     Find the same solution as `hill_climbing`, and return a dictionary
     recording the number of nodes expanded, and whether the problem was
@@ -203,7 +204,7 @@ def hill_climbing_instrumented(problem):
     }
 
 
-def hill_climbing_sideways(problem, max_sideways_moves):
+def hill_climbing_sideways(problem, max_sideways_moves, **kwargs):
     """
     When the search would terminate because the best neighbour doesn't
     have a higher value than the current state, continue the search if 
@@ -244,7 +245,7 @@ def hill_climbing_sideways(problem, max_sideways_moves):
     }
 
 
-def hill_climbing_random_restart(problem, max_restarts):
+def hill_climbing_random_restart(problem, max_restarts, **kwargs):
     """
     When the search would terminate because the best neighbour doesn't
     have a higher value than the current state, generate a new state to
@@ -290,13 +291,20 @@ def hill_climbing_random_restart(problem, max_restarts):
     }
 
 
-def expanded_nodes(func=hill_climbing_instrumented, N=N, number_times_to_run=NUMBER_TIMES_TO_RUN, **kwargs):
-    for n in N:
-        problem = NQueensProblem(N=n)
-        total_expanded_nodes = 0
-        for _ in range(number_times_to_run):
-            total_expanded_nodes += func(problem, **kwargs)['expanded']
-        print("Average expanded nodes for {} Queens Problem is {}.".format(n, total_expanded_nodes/number_times_to_run))
+def expanded_nodes(algorithm=hill_climbing_instrumented, N=4, solved_times=1000, **kwargs):
+    expanded_node = []
+    count = 0
+    while True:
+        problem = NQueensProblem(N=N, state=tuple(random.choice(range(N)) for _ in range(N)))
+        results = algorithm(problem, **kwargs)
+        if results['solved']:
+            count += 1
+            expanded_node.append(results['expanded'])
+            if count >= solved_times:
+                break
+    avg_nodes = sum(expanded_node) / len(expanded_node)
+    std_nodes = stdev(expanded_node)
+    return avg_nodes, std_nodes
 
 
 def time_to_solve(algorithm=hill_climbing_instrumented, N=4, solved_times=1000, **kwargs):
@@ -312,15 +320,42 @@ def time_to_solve(algorithm=hill_climbing_instrumented, N=4, solved_times=1000, 
             time_spent.append(end_time - start_time)
             if count >= solved_times:
                 break
-    return time_spent
+    avg_time_spend = sum(time_spent) / len(time_spent)
+    std_time_spend = stdev(time_spent)
+    return avg_time_spend, std_time_spend
 
-def solution_found(func=hill_climbing_instrumented, N=N, number_times_to_run=NUMBER_TIMES_TO_RUN, **kwargs):
-    random.seed(SEED)
-    for n in N:
-        problem = NQueensProblem(N=n)
-        solved = 0
-        for _ in range(number_times_to_run):
-            inital_state = tuple(random.choice(range(n)) for _ in range(n))
-            problem.initial = inital_state
-            solved += func(problem, **kwargs)['solved']
-        print("Probability of solving {} Queens Problem is {}.".format(n, solved/number_times_to_run))
+
+def problem_solving(algorithm=hill_climbing_instrumented, N=4, number_times_to_run=1000, **kwargs):
+    problem_solved = 0
+    for _ in range(number_times_to_run):
+        problem = NQueensProblem(N=N, state=tuple(random.choice(range(N)) for _ in range(N)))
+        results = algorithm(problem, **kwargs)
+        problem_solved += results['solved']
+    solving_probability = problem_solved / number_times_to_run
+    return solving_probability
+
+
+def report_results(algorithm, N_range, **kwargs):
+    for N in N_range:
+        avg_nodes, std_nodes = expanded_nodes(algorithm=algorithm, N=N, **kwargs)
+        print("Average {} of nodes +/- {} std dev for {} Queens Problem using {} algorithm".format(avg_nodes, std_nodes, N, algorithm.__name__))
+        avg_time_spend, std_time_spend = time_to_solve(algorithm=algorithm, N=N, **kwargs)
+        print("Average time {} to solve +/- {} std dev for {} Queens Problem using {} algorithm".format(avg_time_spend, std_time_spend, N, algorithm.__name__))
+        solving_probability = problem_solving(algorithm=algorithm, N=N, **kwargs)
+        print("Probability of {} solving for {} Queens Problem using {} algorithm".format(solving_probability, N, algorithm.__name__))
+
+
+if __name__ == '__main__':
+    # Run the N = 6, 7, 8 Queens Problem
+    # hill_climbing_instrumented
+    N_range = range(6, 9)
+    solved_times = 1000
+    number_times_to_run = 1000
+    max_sideways_moves = 20
+    max_restarts = 20
+    report_results(hill_climbing_instrumented, N_range, solved_times=solved_times, number_times_to_run=number_times_to_run,
+                   max_sideways_moves=max_sideways_moves, max_restarts=max_restarts)
+    report_results(hill_climbing_sideways, N_range, solved_times=solved_times, number_times_to_run=number_times_to_run,
+                   max_sideways_moves=max_sideways_moves, max_restarts=max_restarts)
+    report_results(hill_climbing_random_restart, N_range, solved_times=solved_times, number_times_to_run=number_times_to_run,
+                   max_sideways_moves=max_sideways_moves, max_restarts=max_restarts)
