@@ -1,5 +1,7 @@
+from typing import List
+
 class Solution:
-    def firstMissingPositive(self, nums) -> int:
+    def firstMissingPositive(self, nums: List) -> int:
         if len(nums) == 0:
             return 1
         # for i in range(1, len(nums) + 2):
