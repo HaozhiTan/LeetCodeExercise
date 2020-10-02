@@ -1,7 +1,7 @@
 # LeetCode31DaysChallenge-202010
 ## LeetCode 31 days Challenge Repo in Oct 2020
 ### Day 1 Number of Recent Calls
-### Day 2 
+### Day 2 Combination Sum
 ### Day 3 
 ### Day 4 
 ### Day 5 
