@@ -2,7 +2,7 @@
 ## LeetCode 31 days Challenge Repo in Oct 2020
 ### Day 1 Number of Recent Calls
 ### Day 2 Combination Sum
-### Day 3 
+### Day 3 K-diff Pairs in an Array
 ### Day 4 
 ### Day 5 
 ### Day 6 
