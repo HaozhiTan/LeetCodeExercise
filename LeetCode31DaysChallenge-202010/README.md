@@ -3,7 +3,7 @@
 ### Day 1 Number of Recent Calls
 ### Day 2 Combination Sum
 ### Day 3 K-diff Pairs in an Array
-### Day 4 
+### Day 4 Remove Covered Intervals
 ### Day 5 
 ### Day 6 
 ### Day 7 
