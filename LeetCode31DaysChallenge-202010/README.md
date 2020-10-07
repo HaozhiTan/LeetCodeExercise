@@ -6,7 +6,7 @@
 ### Day 4 Remove Covered Intervals
 ### Day 5 Complement of Base 10 Integer
 ### Day 6 Insert into a Binary Search Tree
-### Day 7 
+### Day 7 Rotate List
 ### Day 8 
 ### Day 9 
 ### Day 10
