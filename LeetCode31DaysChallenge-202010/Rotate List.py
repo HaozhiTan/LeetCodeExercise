@@ -12,6 +12,8 @@ class Solution:
         curr_node = head
         while curr_node:
             list_length += 1
+            if not curr_node.next:
+                last_node = curr_node
             curr_node = curr_node.next
         k = k % list_length
         if k == 0:
@@ -24,7 +26,5 @@ class Solution:
         next_node = curr_node.next
         ans = next_node
         curr_node.next = None
-        while next_node.next:
-            next_node = next_node.next
-        next_node.next = head
+        last_node.next = head
         return ans
