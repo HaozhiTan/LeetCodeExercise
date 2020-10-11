@@ -10,7 +10,7 @@
 ### Day 8 Binary Search
 ### Day 9 Serialize and Deserialize BST
 ### Day 10 Minimum Number of Arrows to Burst Balloons
-### Day 11
+### Day 11 Remove Duplicate Letters
 ### Day 12
 ### Day 13
 ### Day 14
