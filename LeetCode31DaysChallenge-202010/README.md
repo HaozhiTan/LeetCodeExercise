@@ -12,7 +12,7 @@
 ### Day 10 Minimum Number of Arrows to Burst Balloons
 ### Day 11 Remove Duplicate Letters
 ### Day 12 Buddy Strings
-### Day 13
+### Day 13 Sort List
 ### Day 14
 ### Day 15
 ### Day 16
