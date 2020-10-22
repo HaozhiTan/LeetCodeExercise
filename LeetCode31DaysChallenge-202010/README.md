@@ -21,7 +21,7 @@
 ### Day 19 Minimum Domino Rotations For Equal Row
 ### Day 20 Clone Graph
 ### Day 21 Asteroid Collision
-### Day 22
+### Day 22 Minimum Depth of Binary Tree
 ### Day 23
 ### Day 24
 ### Day 25
