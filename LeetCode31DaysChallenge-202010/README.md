@@ -23,7 +23,7 @@
 ### Day 21 Asteroid Collision
 ### Day 22 Minimum Depth of Binary Tree
 ### Day 23 132 Pattern
-### Day 24
+### Day 24 Bag of Tokens
 ### Day 25
 ### Day 26
 ### Day 27
