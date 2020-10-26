@@ -25,7 +25,7 @@
 ### Day 23 132 Pattern
 ### Day 24 Bag of Tokens
 ### Day 25 Stone Game IV
-### Day 26
+### Day 26 Champagne Tower
 ### Day 27
 ### Day 28
 ### Day 29
