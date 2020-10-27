@@ -26,7 +26,7 @@
 ### Day 24 Bag of Tokens
 ### Day 25 Stone Game IV
 ### Day 26 Champagne Tower
-### Day 27
+### Day 27 Linked List Cycle II
 ### Day 28
 ### Day 29
 ### Day 30
