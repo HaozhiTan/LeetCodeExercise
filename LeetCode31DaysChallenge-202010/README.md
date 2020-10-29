@@ -28,6 +28,6 @@
 ### Day 26 Champagne Tower
 ### Day 27 Linked List Cycle II
 ### Day 28 Summary Ranges
-### Day 29
+### Day 29 Maximize Distance to Closest Person
 ### Day 30
 ### Day 31
