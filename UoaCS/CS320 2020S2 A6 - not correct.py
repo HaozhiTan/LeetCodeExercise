@@ -12,8 +12,9 @@ class NetworkFlowProblem:
         nums = line.split(' ')
         self.total_questions = int(nums[0])
         self.needed_questions = int(nums[1])
-        self.difficulties = sys.stdin.readline().strip().split(' ')
-        self.topics = sys.stdin.readline().strip().split(' ')
+        if self.needed_questions > 0:
+            self.difficulties = sys.stdin.readline().strip().split(' ')
+            self.topics = sys.stdin.readline().strip().split(' ')
         for _ in range(self.total_questions):
             question = sys.stdin.readline().strip().split(' ')
             self.graph_dict[(question[2], question[1])] = 1
@@ -22,6 +23,8 @@ class NetworkFlowProblem:
 
 
     def question_matching(self):
+        if self.needed_questions == 0:
+            return 'Yes'
         selected = [None] * self.needed_questions
         for u in range(self.needed_questions):
             seen = [False] * self.needed_questions
