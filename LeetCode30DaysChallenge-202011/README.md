@@ -1,7 +1,7 @@
 # LeetCode30DaysChallenge-202011
 ## LeetCode 30 days Challenge Repo in Nov 2020
 ### Day 1 Convert Binary Number in a Linked List to Integer
-### Day 2 
+### Day 2 Insertion Sort List
 ### Day 3 
 ### Day 4 
 ### Day 5 
